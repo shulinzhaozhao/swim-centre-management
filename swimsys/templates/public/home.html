@@ -1,0 +1,61 @@
+{% extends "public/base_template/base.html" %}
+
+{% block title %}Home{% endblock %}
+
+
+{% block main %}
+
+<div class="custom-container">
+  <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+    <div class="col-10 col-sm-8 col-lg-6">
+      <!-- <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"> -->
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="static/img/aqua3.jpg" class="d-block w-100" alt="aqua1">
+            <!-- Image credit: Source: https://www.health.harvard.edu/blog/swimming-lessons-10-things-parents-should-know-2018061514064 ,this photo is only used for submitting assignment, not for business purpose -->
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="static/img/aqua2.jpg" class="d-block w-100" alt="aqua2">
+            <!-- Photo by <a href="https://unsplash.com/@serenarepice?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Serena Repice Lentini</a> on <a href="https://unsplash.com/photos/TVOAbbLL050?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="static/img/aqua1.jpg" class="d-block w-100" alt="aqua3">
+            <!-- Image credit: Source: https://www.bayut.com/mybayut/aqua-fitness-dubai/ ,this photo is only used for submitting assignment, not for business purpose -->
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </div>
+    <div class="col-lg-6">
+      <h1 id="home-page-title" class="display-5 fw-bold text-body-emphasis lh-1 mb-3">SUBSCRIPTION FROM <br> $70 PER
+        MONTH.</h1>
+      <p class="lead">
+        Dive into fitness at Waikirikiri Swim Centre! Experience <strong>unlimited</strong> pool access and dynamic aqua
+        aerobics classes,
+        all for an unbeatable weekly rate (17.5 per week). Our expert instructors, personalized lessons, and diverse
+        pool options are ready to help you make a splash towards a healthier you!</p>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+
+        <a href="{{ url_for('public.login') }}">
+          <button id="join-now" type="button" class="btn btn-danger btn-lg px-4 me-md-2">JOIN NOW!</button>
+        </a>
+        
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+        {% endblock %}

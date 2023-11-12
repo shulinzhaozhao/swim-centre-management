@@ -1,0 +1,336 @@
+/* FT starts */
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: darkslategray;
+    background-color: #f1f1f1;
+}
+header {
+   margin-bottom: 0;
+}
+
+.custom-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.wide-container {
+    width: 1450px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.wider-container {
+    max-width: 1450px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+
+.upcoming-lesson-container {
+    width: 1600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.function-list-card {
+    width: 900px;
+    height: 400px; 
+    text-align: center;
+    padding: 20px;
+}
+
+.two-col-table-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+img#logo {
+    height: 60px;
+    margin: 10px, 20px, 10px, 20px;
+    padding-top: 10px;
+}
+
+#home-page-title {
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Merriweather', serif;
+    color:royalblue;
+    font-size: 4em;
+}
+
+p.lead {
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: justify;
+}
+
+#join-now {
+    font-size: 2.5em;
+}
+
+.row {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    box-sizing: content-box;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 50px;
+}
+
+#schedule-table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#lesson-slot-table th td {
+    text-align: center;
+    vertical-align: middle;
+    width: 100px;
+
+}
+
+
+#schedule-table button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#lesson-slot-table button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+#schedule-table td.time-column {
+    font-weight: bold;
+}
+
+#lesson-slot-table td.time-column {
+    font-weight: bold;
+}
+
+.banner {
+    display: inline-block;
+    color:white;
+    background-color: darkred;
+    /* background-color: #ff5722; */
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.banner-booked {
+    display: inline-block;
+    color:white;
+    background-color: darkgray;
+    /* background-color: #ff5722; */
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.intro-words p {
+    color:gray;
+    font-size:small;
+    margin:0;
+}
+
+.intro-words p.strong{
+    font-weight: bolder;
+}
+
+/*used for table th*/
+.bg-light-gray {
+    background-color: #f7f7f7;
+}
+
+.subtitle {
+    color:black;
+    padding: 5px 10px; 
+    text-align: center;
+}
+
+
+.back-button-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+.back-button {
+    display:flex;
+    justify-content: flex-end;
+    margin-top: 0;
+    margin-left: auto;
+    margin-bottom: 30px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* used for .subtitle, rows, center the texts */
+.row.text-align-center {
+    text-align: center;
+}
+
+/* FT ends */
+
+
+
+/* body{
+    margin-top:20px;
+} */
+
+/* .bg-light-gray {
+    background-color: #f7f7f7;
+} */
+
+.table-bordered thead td, .table-bordered thead th {
+    border-bottom-width: 2px;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+.table-bordered td, .table-bordered th {
+    border: 1px solid #dee2e6;
+}
+
+/* .table-bordered td, .table-bordered th {
+    border: 1px solid #dee2e6;
+} */
+.table td, .table th {
+    /* padding: .75rem; */
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+
+/* .bg-sky.box-shadow {
+    box-shadow: 0px 5px 0px 0px #00a2a7
+} */
+
+/* .bg-orange.box-shadow {
+    box-shadow: 0px 5px 0px 0px #af4305
+}
+
+.bg-green.box-shadow {
+    box-shadow: 0px 5px 0px 0px #4ca520
+}
+
+.bg-yellow.box-shadow {
+    box-shadow: 0px 5px 0px 0px #dcbf02
+}
+
+.bg-pink.box-shadow {
+    box-shadow: 0px 5px 0px 0px #e82d8b
+}
+
+.bg-purple.box-shadow {
+    box-shadow: 0px 5px 0px 0px #8343e8
+} */
+
+/* .bg-lightred.box-shadow {
+    box-shadow: 0px 5px 0px 0px #d84213
+} */
+
+/* 
+.bg-sky {
+    background-color: #02c2c7
+}
+
+.bg-orange {
+    background-color: #e95601
+}
+
+.bg-green {
+    background-color: #5bbd2a
+}
+
+.bg-yellow {
+    background-color: #f0d001
+}
+
+.bg-pink {
+    background-color: #ff48a4
+}
+
+.bg-purple {
+    background-color: #9d60ff
+}
+
+.bg-lightred {
+    background-color: #ff5722
+} */
+
+/* .bg-gray {
+    background-color: gray
+} */
+
+/* .padding-15px-lr {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.padding-5px-tb {
+    padding-top: 5px;
+    padding-bottom: 5px;
+} */
+/* .margin-10px-bottom {
+    margin-bottom: 10px;
+}
+.border-radius-5 {
+    border-radius: 5px;
+}
+
+.margin-10px-top {
+    margin-top: 10px;
+}
+.font-size14 {
+    font-size: 14px;
+}
+
+.text-light-gray {
+    color:black;
+}
+.font-size13 {
+    font-size: 13px;
+} */
+
+.table-bordered td, .table-bordered th {
+    border: 1px solid #dee2e6;
+}
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+/* Add these custom styles for adjusting input field sizes */
+.profile-form .form-control-short {
+    width: 150px; /* You can adjust the width as needed */
+    font-size: 14px;
+}
+
+.profile-form .form-control-long {
+    width: 100%; /* Use full width */
+    font-size: 14px;
+}
+
