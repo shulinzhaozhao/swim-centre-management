@@ -56,7 +56,7 @@ The project entailed the development of a `full-stack web application` that util
 ## :rose: Collaborators
 - @fangxin-tang
 - @dorachenxi
-- @shulinzhaozhao
+- @nayxie
 - @SimonEccleston
 
 
